@@ -18,7 +18,7 @@
 1)Данные для отображения прилетают с бэкенда(написан на flask) в формате JSON. 
    Необходимо сделать запрос и отрендерить с полученными данными.
 
-**Запрос:** метод GET, url: http://127.0.0.1:5000/v1/verification-profile/get-data
+**Запрос:** метод GET, url: http://127.0.0.1:5000/api/v1/verification-profile/get-data
   
 **Ответ:** JSON
 
@@ -44,10 +44,10 @@
 
 
 2)Дейстивия на кнопки
-1) Для кнопки верифицировать, url: http://127.0.0.1:5000/v1/verification-profile/verification
-2) Для кнопки отклонить верификацию, url: http://127.0.0.1:5000/v1/verification-profile/cancel-verification
-3) Для кнопки забанить аккаунт, url: http://127.0.0.1:5000/v1/verification-profile/ban-acc
-4) Для кнопки забанить устройство, url: http://127.0.0.1:5000/v1/verification-profile/ban-dev
+1) Для кнопки верифицировать, url: http://127.0.0.1:5000/api/v1/verification-profile/verification
+2) Для кнопки отклонить верификацию, url: http://127.0.0.1:5000/api/v1/verification-profile/cancel-verification
+3) Для кнопки забанить аккаунт, url: http://127.0.0.1:5000/api/v1/verification-profile/ban-acc
+4) Для кнопки забанить устройство, url: http://127.0.0.1:5000/api/v1/verification-profile/ban-dev
    
 **Запрос:** метод POST, data:
 
