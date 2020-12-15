@@ -45,7 +45,7 @@
 
 2)Дейстивия на кнопки
 1) Для кнопки верифицировать, url: http://127.0.0.1:5000/v1/verification-profile/verification
-2) Для кнопки отклонить верификацию, url: http://127.0.0.1:5000/v1/verification-profile/cabsel-verification
+2) Для кнопки отклонить верификацию, url: http://127.0.0.1:5000/v1/verification-profile/cancel-verification
 3) Для кнопки забанить аккаунт, url: http://127.0.0.1:5000/v1/verification-profile/ban-acc
 4) Для кнопки забанить устройство, url: http://127.0.0.1:5000/v1/verification-profile/ban-dev
    
