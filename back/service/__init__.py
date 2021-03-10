@@ -7,6 +7,8 @@ def create_app(config_class=Config):
     app = Flask(__name__)
     app.config.from_object(config_class)
     CORS(app, resources={r'/*': {'origins': '*'}})
+    app.config['CORS_HEADERS'] = 'Content-Type'
+
 
     with app.app_context():
         from service.api.restplus import bp as api_bp

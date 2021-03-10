@@ -1,3 +1,6 @@
+# Запись работы интерфейса
+![Alt Text](docs/screencast.gif)
+
 # Создать single page application на Vue.js
 Приложение по верификации профиля пользователя по фото.
 
